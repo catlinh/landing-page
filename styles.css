@@ -60,18 +60,38 @@ button{
     background-color:#3882F6;
     color:white;
     text-align:center;
-    padding: 8px 28px;
     font-size: 18px;
     font-weight:bold;
     border-radius:12px;
+    padding: 8px 28px;
+}
+button#one{
     border:none;
 }
-
 .section.one .info{
     font-size:36px;
     font-weight:900;
     text-align:center;
     padding-top:50px;
+}
+.section .squares div{
+    border:3px solid #3882F6;
+    width:150px;
+    height:150px;
+    border-radius:12px;
+    margin-top:50px;
+}
+
+.section .squares,.text{
+    display:flex;
+    justify-content:space-between;
+}
+
+.section .text div{
+    width:145px;
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:50px;
 }
 
 .section.two{
@@ -90,4 +110,47 @@ button{
     font-size: 18px;
     font-weight:bold;
     padding-left:615px;
+}
+
+.three {
+    display:flex;
+    margin-left:450px;
+    margin-right:450px;
+    margin-top:70px;
+    margin-bottom:70px;
+    background-color: #3882F6;
+    color:white;
+    font-family:"Roboto";
+    height:120px;
+    border-radius: 8px;
+}
+.three .side.left{
+    width: 70%;
+    margin:auto;
+    margin-left:100px;
+}
+
+#first{
+    font-size:20px;
+    font-weight:900;
+} 
+
+.three .side.right{
+    margin:auto;
+    align-content: center;
+}
+
+button#two{
+    border:1px solid white;
+    margin-right:100px;
+    width:130px;
+}
+
+.footer{
+    text-align:center;
+    background-color: #1F2937;
+    color: white;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-family:"Roboto";
 }
